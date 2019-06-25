@@ -9,4 +9,4 @@ dependencies:
   version: 0.0.647
 - name: jenkins-x-platform
   repository: https://storage.googleapis.com/chartmuseum.jenkins-x.io
-  version: 2.0.708
+  version: 2.0.330

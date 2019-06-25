@@ -1,0 +1,35 @@
+apiVersion: v1
+data:
+  ca.crt: |
+    -----BEGIN CERTIFICATE-----
+    MIIDDDCCAfSgAwIBAgIRAKE0/gFvvkjkN0w67cAd/AkwDQYJKoZIhvcNAQELBQAw
+    LzEtMCsGA1UEAxMkZGI2N2Q3YzQtZTc2NC00YmU0LThhMGMtN2Y1ZTJhZGVlYzcw
+    MB4XDTE5MDYyNTIwMTMxOVoXDTI0MDYyMzIxMTMxOVowLzEtMCsGA1UEAxMkZGI2
+    N2Q3YzQtZTc2NC00YmU0LThhMGMtN2Y1ZTJhZGVlYzcwMIIBIjANBgkqhkiG9w0B
+    AQEFAAOCAQ8AMIIBCgKCAQEAqJhPfdZ8iaHtnWm33km+Dja6VskVW97sZCPrhF2h
+    5VoP2isNh18AKAJa2lbSaUQy73COo9qd39pgVxycv2K12VQxnK0N6Bo0xhrMmH6x
+    rnhl7a7zHXraAn5wh1Iwl2gk1KL1p0AwbJ+fDSaBhT40DaZwBfuzGwjfJoFGUjag
+    yX9aDhR8PABP8/KQxEGwHqcWH1URhn3GkVziPVqbI9FVqIIncoi6Hk3TF+IrNcYL
+    f+b1kx2v6JP8l8nFXSCmeqMaB75aplLh275F2w/jKlJdg+d6LlDchJA0TbkmI3wj
+    vW1EEjOgZ9cxWR1TImIcUanFKT/VIXGgQ5tK3ySpDKC6/wIDAQABoyMwITAOBgNV
+    HQ8BAf8EBAMCAgQwDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEA
+    L6WSsgXhXm/McgdjA6DQSajqYYNg0m3kaS0ExPskheMoJA1cBEqWLTeCm7WlzmWW
+    VsIA2qQLbr0FyLbLnZHk0RHYlLI/udSWfoTtEJeLYGrH08XpfZM6ESoAmgi9G3ME
+    19jpui8YRcfgsDzxPdIKwKX+luFloKPMnYF4YYUvh3x0izZN7/K26QMy8+Ttpyps
+    qMwfNVfxz9jfKDfvo99E/wqj8kZPFI7Wsq6xA1CYlTYmA1VWkdmbZGT/CC7vYnth
+    UHjp9xAUGj/VOcx3ykx3Jr80UHfx1+NW54QRxfwf3jpP1kSF+EOKXKEWHI8Gj+I+
+    mQL/G7iCueMKIlIxWAT0cw==
+    -----END CERTIFICATE-----
+  clusterName: pr-277-98-ng-gkebdd
+  jx-install-version: 2.0.323
+  kubeProvider: gke
+  projectID: jenkins-x-bdd
+  region: ""
+  secretsLocation: vault
+  server: https://35.205.90.131
+  systemVaultName: jx-vault-pr-277-98-ng
+  zone: europe-west1-c
+kind: ConfigMap
+metadata:
+  creationTimestamp: null
+  name: jx-install-config
